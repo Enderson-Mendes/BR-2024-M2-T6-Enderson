@@ -32,6 +32,7 @@ class Game:
         pygame.quit()
 
     def run(self):
+        # Game loop: events - update - draw
         self.playing = True
         self.obstacle_manager.reset_obstacles()
         while self.playing:
@@ -56,11 +57,12 @@ class Game:
 
     def draw(self):
         self.clock.tick(FPS)
-        self.screen.fill((255, 255, 255))
+        self.screen.fill((255, 255, 255)) # "#FFFFFF"
         self.draw_background()
         self.player.draw(self.screen)
         self.obstacle_manager.draw(self.screen)
         self.draw_score()
+        #pygame.display.update()
         pygame.display.flip()
 
     def draw_background(self):
