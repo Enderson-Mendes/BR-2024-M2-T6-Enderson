@@ -35,6 +35,10 @@ DUCKING = [
     pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoDuck2.png")),
 ]
 
+FUNDO = [
+    pygame.image.load(os.path.join(IMG_DIR, "fundo2_0001.png"))
+]
+
 DUCKING_SHIELD = [
     pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoDuck1Shield.png")),
     pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoDuck2.png")),
