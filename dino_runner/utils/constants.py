@@ -35,9 +35,6 @@ DUCKING = [
     pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoDuck2.png")),
 ]
 
-FUNDO = [
-    pygame.image.load(os.path.join(IMG_DIR, "fundo2_0001.png"))
-]
 
 DUCKING_SHIELD = [
     pygame.image.load(os.path.join(IMG_DIR, "Dino/DinoDuck1Shield.png")),
@@ -74,3 +71,9 @@ BG = pygame.image.load(os.path.join(IMG_DIR, 'Other/Track.png'))
 HEART = pygame.image.load(os.path.join(IMG_DIR, 'Other/SmallHeart.png'))
 
 DEFAULT_TYPE = "default"
+
+SHIELD_TYPE = "shield"
+
+HAMMER_TYPE = "hammer"
+
+FUNDO = pygame.image.load(os.path.join(IMG_DIR, 'fundo.png'))
